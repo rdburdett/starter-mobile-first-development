@@ -27,3 +27,43 @@ main p {
   font-family: "Roboto", sans-serif;
   margin-top: 0;
 }
+
+div img {
+  width: 100%;
+  border-radius: 5px;
+}
+
+.group {
+  /* border: 5px solid yellowgreen; */
+  display: flex;
+  flex-direction: row;
+  padding: 20px;
+}
+
+.paragraph {
+  display: flex;
+  flex-direction: column;
+  /* border: 5px solid red; */
+  /* width: 400px; */
+}
+
+.large-image {
+  box-sizing: border-box;
+  /* border: 5px solid blue; */
+}
+
+.item {
+  /* border: 1px solid red; */
+  flex: 1;
+  padding: 10px;
+}
+
+.item-double {
+  flex: 2;
+  padding: 10px;
+}
+
+.brownbox {
+  background-color: #786048;
+  margin-bottom: 50px;
+}
